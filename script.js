@@ -1,5 +1,3 @@
-console.log(`JS OK`);
-
 const list =document.getElementById(`list`);
 
 
@@ -36,7 +34,7 @@ partners = [
     }
 ]
 
-const partnersList;
+const partnersList = ``;
 
 for(let i = 0 ; i < partners.length ; i++){
     const partner = partners[i];
