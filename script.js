@@ -41,7 +41,7 @@ for(let i = 0 ; i < partners.length ; i++){
     console.table(partner);
     partnersList += `
     <li>
-        <div> ${partner.img}</div>
+        <div> <img src="img/${partner.img}"></div>
         <div> ${partner.completeName}</div>
         <div> ${partner.position}</div>
     </li>`;
