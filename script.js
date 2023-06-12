@@ -34,9 +34,17 @@ partners = [
     }
 ]
 
-const partnersList = ``;
+let partnersList = ``;
 
 for(let i = 0 ; i < partners.length ; i++){
     const partner = partners[i];
     console.table(partner);
+    partnersList += `
+    <li>
+        <div> ${partner.img}</div>
+        <div> ${partner.completeName}</div>
+        <div> ${partner.position}</div>
+    </li>`;
 }
+
+list.innerHTML = partnersList;
